@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <Head>
         <title>AAPTech Consulting</title>
         <meta name="description" content="Driving Innovation, Delivering Excellence" />
-        <link rel="icon" href="/assets/aw.svg" />
+        <link rel="icon" href="/assets/Aw.svg" />
       </Head>
 
       <Header />

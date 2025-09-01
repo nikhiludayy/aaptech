@@ -1,6 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { ContactFormResponse } from '../../types';
 import nodemailer from 'nodemailer';
+export const runtime = 'edge';
 
 export default async function handler(
   req: NextApiRequest,

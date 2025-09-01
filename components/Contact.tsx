@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { contactInfo } from '../data/siteData';
-
+export const runtime = 'edge';
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',

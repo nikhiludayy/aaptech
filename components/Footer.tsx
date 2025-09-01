@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center justify-center md:justify-start space-x-2 mb-4">
               <Image
-                src="/assets/aw.svg"
+                src="/assets/Aw.svg"
                 alt="AAPTech logo"
                 width={100}
                 height={100}

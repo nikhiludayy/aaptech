@@ -3,7 +3,7 @@ import React from "react";
 const Footer: React.FC = () => (
   <footer className="bg-gray-800 text-white">
     <div className="container mx-auto px-6 py-10">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center justify-items-center md:text-right">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-center justify-items-center md:text-right">
         <div>
           <div className="flex items-center justify-center md:justify-start space-x-2 mb-4">
             <img
@@ -42,7 +42,7 @@ const Footer: React.FC = () => (
             </li>
           </ul>
         </div>
-        <div>
+        {/* <div>
           <h4 className="font-bold mb-4">Connect With Us</h4>
           <div className="flex justify-center md:justify-start space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">
@@ -56,7 +56,7 @@ const Footer: React.FC = () => (
               </svg>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="mt-8 pt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
         <p>&copy; 2025 AAP Technologies. All Rights Reserved.</p>
